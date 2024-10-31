@@ -270,3 +270,40 @@ a {
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album_image {
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.album_Image {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.album_title {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.album_creator {
+    font-size: 0.7rem;
+    margin: 0;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+
+.album_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-left: 0.3rem;
+}
+
+.album_info i {
+    margin-left: 0.2rem;
+}
