@@ -57,6 +57,7 @@ a {
 }
 .nav-option:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .nav-option i {
@@ -100,6 +101,7 @@ a {
 
 .icons i:hover {
     opacity: 1;
+    cursor: pointer;
 }
  
 .box {
@@ -241,6 +243,7 @@ a {
 
 .player-control-icon:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .playback-bar {
@@ -306,4 +309,20 @@ a {
 
 .album_info i {
     margin-left: 0.2rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls>div>img {
+    height: 1.3rem;
+    margin-right: 0.75rem;
+    opacity: 0.7;
+}
+
+.controls>div>img:hover {
+    cursor: pointer;
 }
